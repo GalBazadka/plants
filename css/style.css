@@ -459,6 +459,11 @@ input{
     margin-left: 50px;
 }
 
+.hamburgerImg{
+    width: 60px;
+    margin-top: 30px;
+}
+
 .item h3 {
     font-size: 150%;  
 }
