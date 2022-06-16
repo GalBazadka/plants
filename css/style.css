@@ -1,0 +1,490 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;     
+}
+
+#firstcont{
+    display: none;
+}
+
+#main{grid-area:main}
+.sidebar {grid-area: sidebar}
+#about{grid-area: about;}
+#plantNoKill{grid-area: plantNoKill;}
+#plantAir{grid-area: plantAir;}
+#plantfriendly{grid-area: plantfriendly;}
+#contact{grid-area: contact;}
+
+#container{
+    display:grid;
+    grid-template-columns: 100%; 
+    grid-template-rows: 100%;
+    grid-template-areas: 
+        'sidebar'
+        'main '
+        'about  '
+        'plantNoKill '
+        'plantAir '
+        'plantfriendly '
+        'contact ';
+    width: 100%;   
+}
+
+.sidebar {
+    background-color:rgb(0, 0, 0); 
+    position: fixed;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 15% 70% 15% ;
+    flex-direction: row;
+    height: 100px;
+}
+
+#main {
+    background-color: rgb(138, 196, 132);
+    width: 100%;
+}
+
+#main h1{
+    color:white;
+    margin-top: 160px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1px;   
+}
+
+ul{
+    margin: auto;
+    align-items: center; 
+}
+
+li{
+    list-style-type: none;
+    font-size: 16px;
+    color:#cfdbd7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+    float:right;
+    width: 170px;
+    margin-top:15px;
+}
+
+.menu a, .item a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+.menu a:hover, .item a:hover{
+    text-decoration: none;
+    color: rgb(138, 196, 132);
+}
+
+#logopic{ 
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+#logo{
+    height: 100px;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+#nav{  
+    margin:auto;
+    width: 100%;
+}
+
+#menu i{
+    color: white;
+    font-size: 20px;
+}
+
+#menu i:hover{
+    color: rgb(142, 209, 116);
+   
+}
+
+.mainPlant {  
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;  
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap; 
+    margin-top:5%;
+    margin-bottom: 7%; 
+}
+
+.item {  
+    width: 65%;
+    justify-self: center; 
+}
+
+.item:first-child{
+    justify-self: end;
+
+}
+
+.item:last-child{
+    justify-self:start;
+}
+
+.mainp {
+    width: 100%;  
+    margin: auto;
+    border-radius: 40px;  
+    filter:sepia(40%);
+}
+
+.mainp:hover {
+    filter:sepia(0%);
+}
+
+.item h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 200%; 
+    font-weight: lighter; 
+}
+
+   h3:hover{
+    color:black;
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(82, 110, 82);
+    font-size: 35px;  
+    width: 100%;
+}
+
+
+/* <--about --> */
+
+#about{
+    padding-top:100px;
+    background-color: rgb(248, 255, 184);
+    height: 100%;
+}
+
+#about p{
+    padding: 2% 25%;
+    font-size: 23px; 
+    text-align: right;
+    line-height: 35px; 
+}
+
+
+/* <--plantNoKill --> */
+
+#plantNoKill{
+    padding-top:100px; 
+    background-color: rgba(146, 201, 124, 0.836);
+    margin:auto;    
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+    font-size: 25px;  
+}
+
+
+.plant1 {  
+    width: 25em;
+    font-size: 14px;
+    margin-left: 2%;    
+}
+
+.plantimage {
+    width: 100%;  
+    margin: auto;
+    padding-top: 6%;     
+    border-radius: 40px;  
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.light, .water, .difficulty {
+    
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 10%;
+}
+
+.light i{
+    color:rgb(255, 255, 136);
+}
+
+.water i{
+    color:rgb(118, 178, 255);
+}
+
+.difficulty i{
+    color:rgb(87, 177, 84);
+}
+
+span{
+    display: inline-block;
+    width: 70px;
+}
+
+    /* <--plantAir --> */
+
+#plantAir{
+    padding-top:100px;
+    background-color: rgb(196, 224, 180);
+    margin:auto;    
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+     /* <--plantfriendly --> */
+
+     
+#plantfriendly{
+    padding-top:100px;
+    background-color: rgb(160, 202, 141);
+    margin:auto;    
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+     /* <--contact --> */
+
+#contact{
+padding-top:50px; 
+background-color: rgb(226, 247, 177);
+height: 100%;
+justify-items: center;
+align-items:center;
+}
+
+#form_button{
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#form_button:hover{
+    background-color: rgb(146, 201, 124); 
+    color: black; 
+}
+
+form{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+input{  
+    margin: auto;
+    margin-left: 50px;
+    font-family: 'Rubik', sans-serif; 
+}
+
+.input input, .input textarea{
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    text-align: right;
+    border-color: black;
+    flex-grow: 1;
+    padding: 0.75em;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: none;
+    line-height: 1.4;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 40px; 
+    font-family: 'Rubik', sans-serif; 
+}
+    
+@media only screen and (max-width:1000px ) {
+
+    #container{
+        display:grid;
+        grid-template-columns: 100%; 
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            'firstcont'
+            'main '
+            'about  '
+            'plantNoKill '
+            'plantAir '
+            'plantfriendly '
+            'contact ';
+        width: 100%;   
+    }
+    
+#firstcont{
+    display: grid;
+    grid-template-columns: 33% 33%  33%;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 101px;
+    background-color: black;
+    position: fixed;
+}
+
+.topnav {
+    overflow:visible;
+    background-color: black;  
+    transform: translate(0, 0);
+    opacity:1;   
+    margin-left: 150px;  
+    margin-right: -20px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2.5px;
+    text-align:end;
+}
+
+.topnav i {
+    color: white;
+    margin-right: 50px;
+    margin-top: 23px;
+    font-size: 40px;
+}
+
+.menu i{
+    font-size: 20px;
+}
+
+#myLinks li{
+    line-height: 60px;
+    list-style-type: none;
+    border-bottom: 1px solid  rgb(138, 196, 132);
+    background-color: black;
+}
+
+#myLinks li:first-child{
+    margin-top: 100px;
+}
+
+#myLinks a{
+    font-size: 20px;
+}
+
+#myLinks a:hover{
+    color:  rgb(138, 196, 132);
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;  
+    color: white;    
+}
+
+.active {
+    background-color: black;
+    color: black;
+    height: 25px;
+}
+
+#logopic{   
+    max-height: 100px;   
+}
+
+#logo{
+    margin-right: auto;
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+.icon{
+    font-size: 30px;
+    color: #a9c8bc;
+    margin-top: 10px;
+}
+
+.phoneimg{
+    width: 30px;
+    align-self: center;
+}
+
+.phone{
+    justify-self:start;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.item h3 {
+    font-size: 150%;  
+}
+
+li{
+    font-size: 10px;
+    padding-right: 50px;  
+    margin-top:0px;
+}
+
+li:hover{
+    color: rgb(142, 209, 116);
+}
+
+.menu a, .item a{
+    text-decoration: none;
+    color: aliceblue;  
+}
+
+.menu a:hover, .item a:hover{
+    text-decoration: none;
+    color: rgb(142, 209, 116);
+}
+
+.sidebar{
+    display: none;
+}
+
+}        
+
+
