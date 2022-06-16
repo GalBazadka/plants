@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My Plants </title>
+    <link rel="icon" href="img/logo1.png" type="image/icon type">
+    <link rel="stylesheet" href="css\style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/da748367b5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+
+  </head>
+
+<body>
+
+    
+  <!-- menu small size -->
+  
+<div id="firstcont">
+
+    <div class="phone">
+        <a href= tel:052-6200969  target="_blank" > <img class="phoneimg" src= "img/phone.png"/> </a>
+     </div>
+  
+    <div id="logo">
+        <a href="#main" > <img id="logopic" src= "img/logo1.png"> </a>
+    </div> 
+    
+      <div class="topnav">
+        <div id="myLinks">
+                <li class="menu"> <a href="#main" onclick="closeMenu()">      בית     </a> </li>  
+                <li class="menu"> <a href="#about" onclick="closeMenu()">     אודות   </a> </li>  
+                <li class="menu"> <a href="#plantNoKill" onclick="closeMenu()">       קשה להרוג     </a> </li>   
+                <li class="menu"> <a href="#plantAir" onclick="closeMenu()">       מטהרי אוויר     </a> </li>  
+                <li class="menu"> <a href="#plantfriendly" onclick="closeMenu()">    ידידותיים לבע"ח     </a> </li>  
+                <li class="menu"> <a href="#contact" onclick="closeMenu()">   צור קשר </a> </li>
+        </div>
+  
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+  </div>         
+  </div>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+    function closeMenu() {
+      var x = document.getElementById("myLinks");
+      x.style.display = "none"
+    }
+
+
+  </script>
+
+    <div id="container">    
+        <div class="sidebar">   
+            <div> </div>
+
+            <div>       
+            <nav id="nav">
+                <ul>
+                    <li class="menu">
+                        <a href="#main"><i class="fa-solid fa-house"></i> </br></a>
+                        <a href="#main">      בית     </a>
+                    </li>  
+                    <li class="menu">
+                        <a href="#about"><i class="fa-solid fa-user"></i> </br></a>
+                        <a href="#about">     אודות   </a>
+                    </li>  
+                    <li class="menu">
+                        <a href="#plantNoKill"> <i class="fa-brands fa-canadian-maple-leaf"></i> </br></a>
+                        <a href="#plantNoKill">       קשה להרוג     </a> 
+                    </li>   
+                    <li class="menu">
+                        <a href="#plantAir"> <i class="fa-solid fa-seedling"></i> </br></a>
+                        <a href="#plantAir">       מטהרי אוויר     </a> 
+                    </li>  
+                    <li class="menu">
+                        <a href="#plantfriendly"> <i class="fa-solid fa-spa"></i> </br></a>
+                        <a href="#plantfriendly">    ידידותיים לבע"ח     </a> 
+                    </li>  
+                    <li class="menu">
+                        <a href="#contact"><i class="fa-solid fa-phone"></i> </br></a>
+                        <a href="#contact">   צור קשר </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>  
+        
+
+            <div id="logo">
+                <a href="#main" > <img id="logopic" src= "img/logo1.png"> </a>
+            </div> 
+        </div>
+
+
+        <div id="main">
+            <h1>  צמחים שאוהבים בבית</h1>
+            <div class="mainPlant">     
+
+                    <div class="item">
+                        <a href="#plantNoKill"> <img class ="mainp" src="img/sinsavera.jpg" alt="plantNoKill">  </a>
+                        <a href="#plantNoKill"> <h3 class="name">  קשה להרוג </h3>  </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#plantAir"> <img class ="mainp" src="img/monkey.jpg" alt="plantAir">   </a>
+                        <a href="#plantAir"> <h3 class="name">  מטהרי אוויר </h3>  </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#plantfriendly"> <img class ="mainp" src="img/dicpenia.jpg" alt="plantfriendly">   </a>
+                        <a href="#plantfriendly"> <h3 class="name">  ידידותיים לבע"ח </h3>  </a>
+                    </div>
+            </div>  
+        </div>
+
+
+        <div id="about">
+
+            <h2> מחברים בין אנשים וצמחים</h2>
+            <p> 
+                .גדלנו במשתלה… כמה שזה כיף לקום כל בוקר לתוך עולם של צבעים, צורות ושפע. הילדות בין 
+                הצמחים והלמידה אודות התכונות שלהם גרמו לנו לחיבור בלתי מוסבר עם הטבע </br> </br>
+                .בתוך עולם של טכנולוגיה ומחסור בזמן, מצאנו כי הפער בינינו לבין עולם הטבע והצמחים הוא כזה שאסור להשלים איתו
+                החלטנו שבמקום שהטכנולוגיה והקדמה ירחיקו בינינו, נשתמש בהם כדי להתקרב </br> </br>
+                 .היא פלטפורמה שקמה בשביל לחבר כל אחד ואחת לעושר והאושר המדהים שמסתתר מאחורי כל צמח. בעזרת הידע והניסיון שלנו, הפלטפורמה המתקדמת שהקמנו והתשוקה הגדולה שלנו לפזר טבע, מצאנו את הדרך להביא את הילדות שלנו לתוך הבתים שלכם
+            </p>
+
+        </div>
+
+        <script>
+           console.log(5555); 
+        </script>
+
+        <div id="plantNoKill">
+
+            <h2> צמחים שקשה להרוג</h2> </br>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/hurdtokill/batsheva.jpg">  </br>
+                <h4 class="name"> בת שבע </h4> </br>
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water"> <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/hurdtokill/cinori.jpg">  </br>
+                <h4 class="name"> פיקוס כינורי </h4> </br> 
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <span>אור</span></div>
+                <div class="water"> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/hurdtokill/deratzana.jpg">  </br>
+                <h4 class="name"> דרצנה גולדן קוסט </h4> </br>   
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty">  <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/hurdtokill/fotus.jpg">  </br>
+                <h4 class="name"> פוטוס לבן </h4> </br> 
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty">  <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/hurdtokill/greensinsavera.jpg">  </br>
+                <h4 class="name"> סנסיווריה ירוקה </h4> </br>
+                <div class="light">  <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty">  <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/hurdtokill/monstra.jpg">  </br>
+                <h4 class="name"> מונסטרה </h4> </br> 
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty">  <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div>
+
+        </div>
+
+        <div id="plantAir">
+
+            <h2> צמחים מטהרי אוויר</h2>
+   
+            <div class="plant1">
+                <img class ="plantimage" src="img/air/aglanuma.jpg">  </br>
+                <h4 class="name"> אגלאונמה סילבר </h4> </br>  
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water"> <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div>   
+           
+            <div class="plant1">
+                <img class ="plantimage" src="img/air/brazil.jpg">  </br>
+                <h4 class="name"> סקנדנס ברזיל </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>               <span>אור</span></div>
+                <div class="water"> <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div> 
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/air/krokudil.jpg">  </br>
+                <h4 class="name"> שרך קרוקודיל </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water"> <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div> 
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/air/pikusgumi.jpg">  </br>
+                <h4 class="name"> פיקוס גומי </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i>            <span>קושי</span></div> 
+            </div> 
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/air/red.jpg">  </br>
+                <h4 class="name"> אגלאונמה אדומה </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>             <span>קושי</span></div> 
+            </div> 
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/air/spatifalum.jpg">  </br>
+                <h4 class="name"> ספטיפיליום </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>             <span>קושי</span></div> 
+            </div> 
+
+        </div>
+
+        <div id="plantfriendly">
+
+            <h2> צמחים ידידותיים לבעלי חיים</h2>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/friendly/filandrom.jpg">  </br>
+                <h4 class="name"> פילדנדרום בירקין </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i>  <i class="fa-solid fa-droplet"></i>    <span>השקייה</span></div>
+                <div class="difficulty">  <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>             <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/friendly/kisus.jpg">  </br>
+                <h4 class="name"> קיסוס </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">  <i class="fa-solid fa-droplet"></i>  <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty">  <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>               <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/friendly/kltea.jpg">  </br>
+                <h4 class="name"> קלתיאה אינסגניס</h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">    <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>               <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/friendly/kroton.jpg">  </br>
+                <h4 class="name"> קרוטון מנוקד </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">    <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>               <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/friendly/yarka.jpg">  </br>
+                <h4 class="name"> ירקה </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">    <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i> <i class="fa-solid fa-leaf"></i>               <span>קושי</span></div> 
+            </div>
+
+            <div class="plant1">
+                <img class ="plantimage" src="img/friendly/shpalera.jpg">  </br>
+                <h4 class="name"> שפלרה </h4> </br>     
+                <div class="light"> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-sun"></i>                <span>אור</span></div>
+                <div class="water">    <i class="fa-solid fa-droplet"></i> <i class="fa-solid fa-droplet"></i>   <span>השקייה</span></div>
+                <div class="difficulty"> <i class="fa-solid fa-leaf"></i>              <span>קושי</span></div> 
+            </div>
+
+        </div>
+
+        <div id="contact">
+
+            <h2>   נשמח לשמוע מכם  </h2>
+
+            <form action=""> 
+                <div class="input">       
+                     <input type="text" id="name" name="name" placeholder="שם מלא"required > 
+                </div> 
+                <div class="input">  
+                    <input type="tel" id="phone" name="phone" placeholder="טלפון"required > 
+                </div> 
+                <div class="input">  
+                    <input type="email" id="email" name="email" placeholder="אימייל" required> 
+                </div> 
+                <div class="input">  
+                     <textarea name="details" rows="3" cols="16" placeholder="דברו אלינו"></textarea> 
+                </div> 
+                <div class="submit">
+                    <input type="submit" value="שלח"  id="form_button" />
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
