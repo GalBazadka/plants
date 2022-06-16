@@ -431,8 +431,9 @@ input{
 }
 
 #logopic{   
-    width: 100px;  
-    height: 100px;
+    width: 150px;  
+    height: 150px;
+    margin-top: 30px;
 }
 
 #logo{
@@ -448,8 +449,8 @@ input{
 }
 
 .phoneimg{
-    width: 70px;
-    align-self: center;
+    width: 60px;
+    margin-top: 30px;
 }
 
 .phone{
